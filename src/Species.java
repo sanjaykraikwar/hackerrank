@@ -53,7 +53,8 @@ public class Species {
 			
 			System.out.println(mammal.getName() +"  "+4);
 			System.out.println(mammal.getType());
-			mammal.listFoods.forEach(System.out::println);;
+			System.out.println(mammal.listFoods.size() +":");
+			mammal.listFoods.forEach(System.out::print);;
 			
 			
 		}

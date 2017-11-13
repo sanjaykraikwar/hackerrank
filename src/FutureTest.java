@@ -9,24 +9,24 @@ public class FutureTest {
 	}
 	
 	static int calculate(int A,int K,int P){
-		int days=0;
+		int days=1;
 		
-		for(int i=1;i<100;i++) {
+		while(true) {
 			
-			int asol=(A*i)+P;
-			int ksol=(K*i);
+			int aSolution=(A*days)+P;
+			int kSolution=(K*days);
 			
-			if(asol<ksol)
+			if(aSolution<kSolution)
 			{
-				return i;
+				return days;
 			}
+			
+			days++;
 			
 			continue;
 				
 		}
 		
-		
-		return days;
 	}
 
 }

@@ -44,14 +44,9 @@ public class ShowTicket {
 				position=position-1;
 			}
 			
-			else
+			else {
 			position = suffle(tickets, position,current);
-
-			//  for (int i = 0; i <tickets.length; i++)
-				//  System.out.print(tickets[i]);
-			  
-			//  System.out.println("\n new position" + position+"ticket at position"+tickets[position]);
-
+			}
 			  time = time + 1;	
 				
 		}

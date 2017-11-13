@@ -18,7 +18,7 @@ public class LCM {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int array[] = {2,6,10,4};
 		lcmSum(array);
 	}

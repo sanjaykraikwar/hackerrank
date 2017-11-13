@@ -20,13 +20,6 @@ public class KeyboardTest {
 			}
 		}
 
-		/*for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-				System.out.print(a[i][j]);
-			}
-			System.out.println();
-		}*/
-
 		
 		int digits[] = new int[str.length()];
 		for (int i = 0; i < str.length(); i++) {
@@ -41,7 +34,6 @@ public class KeyboardTest {
 	static int entryTime(int a[][], int digits[]) {
 
 		int totalTime = 0;
-		int curr = 0;
 		int locI = 0;
 		int locJ = 0;
 
